@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "npx nodemon aula2-js/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/Hosana09/Hosana09#readme",
   "dependencies": {
+    "express": "^4.19.2",
     "prompt-sync": "^4.2.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
