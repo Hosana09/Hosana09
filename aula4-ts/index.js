@@ -1,10 +1,10 @@
+"use strict";
 function calcularArea(lado) {
     return lado * lado;
 }
-let quadrado = calcularArea(2);
+const quadrado = calcularArea(2);
 console.log(quadrado);
-
-let aluno = {
+const aluno = {
     nome: 'João',
     mediaFinal: 7.5,
     situacao: 'aprovado'
