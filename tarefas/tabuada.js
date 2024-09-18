@@ -1,3 +1,11 @@
+/*
+Crie um código com Node que escreva a tabuada de um número digitado pelo usuário.
+
+A tabuada deve ser apresentada no console como:
+1X2=2
+2X2=4
+*/
+
 import PromptSync from "prompt-sync";
 
 const prompt = PromptSync()
